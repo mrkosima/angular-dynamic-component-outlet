@@ -11,7 +11,7 @@ import { Component } from '@angular/core';
       <p>
         <span>Component {{name}}:</span>
         <span>
-          <dynamic-component name='test1'></dynamic-component>
+          <dynamic-component name='{{name}}'></dynamic-component>
         </span>
       </p>
     </div>
@@ -24,6 +24,6 @@ export class AppComponent {
   private id = 0;
 
   addComponent(){
-    this.names.push(`Name ${++this.id}`);
+    this.names.push(`name_${++this.id}`);
   }
 }
