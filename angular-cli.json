@@ -1,0 +1,22 @@
+{
+  "project": {
+    "version": "0.0.1",
+    "name": "angular-dynamic-component-outlet"
+  },
+  "apps": [
+    {
+      "main": "src/main.ts",
+      "tsconfig": "src/tsconfig.json",
+      "mobile": false
+    }
+  ],
+  "addons": [],
+  "packages": [],
+  "defaults": {
+    "prefix": "app",
+    "sourceDir": "src",
+    "styleExt": "css",
+    "prefixInterfaces": false,
+    "lazyRoutePrefix": "+"
+  }
+}
